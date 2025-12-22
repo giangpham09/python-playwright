@@ -52,6 +52,3 @@ if __name__=='__main__':
     single_page()
     multiple_pages()
     isolated_contexts()
-
-
-cd
