@@ -1,4 +1,3 @@
-import base64
 import configparser
 from playwright.sync_api import Page
 import random
