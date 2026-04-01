@@ -9,7 +9,6 @@ def authen_state(browser):
     page.goto("https://the-internet.herokuapp.com/secure")
     yield page
     page.close()
-
 def test_logout(authen_state):
     logout_page = LogoutPage(authen_state)
     logout_page.access_logout_page()
